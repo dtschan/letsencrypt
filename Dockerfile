@@ -63,4 +63,4 @@ RUN virtualenv --no-site-packages -p python2 /opt/letsencrypt/venv && \
 
 ENV PATH /opt/letsencrypt/venv/bin:$PATH
 
-ENTRYPOINT [ "letsencrypt" ]
+ENTRYPOINT [ "auth" ]
